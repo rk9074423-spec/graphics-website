@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#0f0f0f;
+    background: url("images/bg.jpg") center/cover no-repeat;
     color:white;
 }
 
@@ -57,7 +57,7 @@ nav ul li a:hover{
     justify-content:center;
     align-items:center;
     text-align:center;
-    background:linear-gradient(to right,#000000,#1a1a1a);
+    background:transparent;
 }
 
 .hero-content h1{
@@ -107,7 +107,7 @@ nav ul li a:hover{
 }
 
 .card{
-    background:#1a1a1a;
+    background:#6c6868;
     padding:30px;
     width:300px;
     border-radius:15px;
@@ -116,7 +116,7 @@ nav ul li a:hover{
 
 .card:hover{
     transform:translateY(-10px);
-    box-shadow:0 10px 30px rgba(0,242,255,0.4);
+    box-shadow:0 10px 30px rgba(0, 242, 255, 0.699);
 }
 
 /* Footer */
